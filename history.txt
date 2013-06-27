@@ -1345,23 +1345,4 @@ ______
 * list-colored drop "halo" for variadic inputs
 * most modules: space / tab white space reformatting
 * help screens!! Thanks, Brian!!!
-* help screen API for custom blocks (currently only for the tools library)
 * importing libraries is now "silent", i.e. it doesn't show a dialog letting you select which blocks to import anymore.
-
-130108
-------
-* Blocks: ArgLabelMorph. Dynamic labels for "kicked out" variadic inputs ("input list")
-* Dynamic input label support in BLOCKS, STORE, THREADS, BYOB, GUI and LOCALE
-* Blocks, BYOB: Zebra coloring fix for rings in grey blocks
-
-130110
-------
-* "input list:" (with colon)
-* Blocks: Drawn symbols for TURN RIGHT / LEFT
-* continuations tweaks
-* revert of "returning 'undefined' to parent frame fix" (121204), breaks call/cc
-* ScriptPane cleanUp teak for attached comments
-
-130111
-------
-* Morphic: StringMorph leftClick event error catch
